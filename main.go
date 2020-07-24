@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-study/Model"
+	"go-study/model"
 	"html/template"
 	"log"
 	"net/http"
@@ -19,7 +19,7 @@ func register(w http.ResponseWriter, r *http.Request) {
 		number := r.FormValue("number")
 		password := r.FormValue("password")
 
-		user := Model.User{}
+		user := model.User{}
 		res := user.AddUser2(number, password, "213")
 		if res != nil {
 			fmt.Println("插入失败")
