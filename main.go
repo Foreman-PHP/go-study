@@ -26,7 +26,6 @@ func register(w http.ResponseWriter, r *http.Request) {
 		}
 		fmt.Println("注册成功")
 
-
 	}
 }
 
