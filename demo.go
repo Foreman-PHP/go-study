@@ -35,9 +35,8 @@ func drive(c car) {
 }
 
 func main() {
-	//f := ferrari{"法拉利"}
-	//t := tesla{"特斯拉电动车"}
-	//drive(f)
-	//drive(t)
-
+	f := ferrari{"法拉利"}
+	t := tesla{"特斯拉电动车"}
+	drive(f)
+	drive(t)
 }
