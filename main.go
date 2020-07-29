@@ -25,7 +25,6 @@ func register(w http.ResponseWriter, r *http.Request) {
 			fmt.Println("插入失败")
 		}
 		fmt.Println("注册成功")
-
 	}
 }
 
