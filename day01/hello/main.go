@@ -3,8 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("hello world")
+	fmt.Println("hello word")
 }
-
-// go应用程序 编译
-// go bulid
