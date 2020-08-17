@@ -19,7 +19,7 @@ const (
 	n3
 )
 
-// iota Go语言的常量计数器 只能在常量表达式中使用
+// iota Go语言的常量计数器 只能在常量表达式中使用aaa
 // iota 在 const 关键字出现是被重置为0 const中每新增一行常量声明 iota 计数一次
 const (
 	a1 = iota
