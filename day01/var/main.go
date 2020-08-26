@@ -28,7 +28,6 @@ const (
 )
 
 func main() {
-
 	// 给声明的变量赋值
 	name = "小明"
 	age = 18
@@ -36,17 +35,20 @@ func main() {
 	age2 = 19
 
 	// 简短声明变量 (自推断类型声明)
-	name3 := "小王"
-	age3 := 20
-
-	fmt.Println(name3)
-	fmt.Println(age3)
-
-	fmt.Println(n1)
-	fmt.Println(n2)
-	fmt.Println(n3)
-
-	fmt.Println(a1)
-	fmt.Println(a2)
-	fmt.Println(a3)
+	//name3 := "小王"
+	//age3 := 20
+	name5 := "1"
+	name4 := "xiao as das dsa"
+	fmt.Println(name4)
+	fmt.Println(name5)
+	//fmt.Println(name3)
+	//fmt.Println(age3)
+	//
+	//fmt.Println(n1)
+	//fmt.Println(n2)
+	//fmt.Println(n3)
+	//
+	//fmt.Println(a1)
+	//fmt.Println(a2)
+	//fmt.Println(a3)
 }
